@@ -14,3 +14,5 @@
 ## 运行
 
 npm i
+
+node ./main.js
