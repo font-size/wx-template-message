@@ -1,0 +1,23 @@
+{
+  "name": "message",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "dev": "node main.js dev",
+    "node": "node ./screenshot/moudles/process/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --config --write \"**/*.{ts,js,json,css,scss,md,vue,html}\"",
+    "rd": "node ./tools/replace_dist --dist_dir=./frontend/dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1"
+  },
+  "eslintConfig": {
+  },
+  "devDependencies": {
+  }
+}
